@@ -1,4 +1,9 @@
 {
-  "name": "gif",
-  "packageManager": "yarn@4.9.1"
+  "name": "gif-to-sprite-sheet",
+  "bin": "./main.js",
+  "dependencies": {
+    "get-pixels": "^3.3.3",
+    "gif-frames": "^1.0.1",
+    "sharp": "^0.34.3"
+  }
 }

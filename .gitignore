@@ -1,3 +1,7 @@
+*.png
+*.gif
+*.jpg
+
 .yarn/*
 !.yarn/patches
 !.yarn/plugins
