@@ -116,8 +116,8 @@ function scan(pixels, direction, predicate) {
 
   const startX = Math.min(...startXs);
   const startY = Math.min(...startYs);
-  const endX = Math.min(...endXs);
-  const endY = Math.min(...endYs);
+  const endX = Math.max(...endXs);
+  const endY = Math.max(...endYs);
 
   const frameWidth = endX - startX;
   const frameHeight = endY - startY;
